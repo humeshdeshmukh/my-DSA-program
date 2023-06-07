@@ -1,6 +1,6 @@
 /*write a stack program*/
 #include <stdio.h>
-#include <stdlib.h> // Added for the exit() function
+#include <stdlib.h> 
 #define MAX 5
 
 void push();
@@ -47,7 +47,7 @@ void push()
 {
     int data;
 
-    if (top == MAX - 1) // Corrected the equality check
+    if (top == MAX - 1) 
     {
         printf("\nStack is full");
     }
@@ -87,7 +87,7 @@ void display()
     else
     {
         printf("\nStack elements:");
-        for (i = top; i >= 0; i--) // Corrected the loop condition
+        for (i = top; i >= 0; i--) 
         {
             printf("\n%d", stack[i]);
         }
