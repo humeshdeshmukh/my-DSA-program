@@ -3,6 +3,17 @@
 
 void merge(int a[], int low, int high, int mid);
 void mergesort(int a[], int low, int high);
+void mergesort(int a[], int low, int high)
+{
+    int mid;
+    if (low < high)
+    {
+        mid = (low + high) / 2;
+        mergesort(a, low, mid);
+        mergesort(a, mid + 1, high);
+        merge(a, low, high, mid);
+    }
+}
 
 void merge(int a[], int low, int high, int mid)
 {
@@ -43,17 +54,7 @@ void merge(int a[], int low, int high, int mid)
     }
 }
 
-void mergesort(int a[], int low, int high)
-{
-    int mid;
-    if (low < high)
-    {
-        mid = (low + high) / 2;
-        mergesort(a, low, mid);
-        mergesort(a, mid + 1, high);
-        merge(a, low, high, mid);
-    }
-}
+
 
 int main()
 {
