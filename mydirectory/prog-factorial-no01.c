@@ -1,4 +1,4 @@
-/*write a c program to find GCD of two number*/
+/*write a c program to find  factorial of of no by recurtion */
 
 #include <stdio.h>
 int fact(int n)
