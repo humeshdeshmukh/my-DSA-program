@@ -2,6 +2,36 @@
 
 void quicksort(int a[], int lower, int upper);
 int split(int a[], int lower, int upper);
+int main()
+{
+    int n, i;
+
+    printf("\n Enter the number of elements in the array: ");
+    scanf("%d", &n);
+
+    int a[n];
+    printf("Enter the elements of the array:\n");
+    for (i = 0; i < n; i++)
+    {
+        scanf("%d", &a[i]);
+    }
+
+    printf("\nArray before sorting: ");
+    for (i = 0; i < n; i++)
+    {
+        printf("%d ", a[i]);
+    }
+
+    quicksort(a, 0, n - 1);
+
+    printf("\nArray after sorting: ");
+    for (i = 0; i < n; i++)
+    {
+        printf("%d ", a[i]);
+    }
+
+    return 0;
+}
 
 void quicksort(int a[], int lower, int upper)
 {
@@ -37,35 +67,4 @@ int split(int a[], int lower, int upper)
     a[lower] = a[q];
     a[q] = t;
     return q;
-}
-
-int main()
-{
-    int n, i;
-
-    printf("\n Enter the number of elements in the array: ");
-    scanf("%d", &n);
-
-    int a[n];
-    printf("Enter the elements of the array:\n");
-    for (i = 0; i < n; i++)
-    {
-        scanf("%d", &a[i]);
-    }
-
-    printf("\nArray before sorting: ");
-    for (i = 0; i < n; i++)
-    {
-        printf("%d ", a[i]);
-    }
-
-    quicksort(a, 0, n - 1);
-
-    printf("\nArray after sorting: ");
-    for (i = 0; i < n; i++)
-    {
-        printf("%d ", a[i]);
-    }
-
-    return 0;
 }

@@ -3,6 +3,37 @@
 
 void merge(int a[], int low, int high, int mid);
 void mergesort(int a[], int low, int high);
+int main()
+{
+    int n, i;
+
+    printf("\nEnter the number of elements in the array: ");
+    scanf("%d", &n);
+
+    int a[n];
+    printf("Enter the elements of the array:\n");
+    for (i = 0; i < n; i++)
+    {
+        scanf("%d", &a[i]);
+    }
+
+    printf("\nArray before sorting: ");
+    for (i = 0; i < n; i++)
+    {
+        printf("%d ", a[i]);
+    }
+
+    mergesort(a, 0, n - 1);
+
+    printf("\nArray after sorting: ");
+    for (i = 0; i < n; i++)
+    {
+        printf("%d ", a[i]);
+    }
+
+    return 0;
+}
+
 void mergesort(int a[], int low, int high)
 {
     int mid;
@@ -52,37 +83,4 @@ void merge(int a[], int low, int high, int mid)
     {
         a[i] = c[i];
     }
-}
-
-
-
-int main()
-{
-    int n, i;
-
-    printf("\nEnter the number of elements in the array: ");
-    scanf("%d", &n);
-
-    int a[n];
-    printf("Enter the elements of the array:\n");
-    for (i = 0; i < n; i++)
-    {
-        scanf("%d", &a[i]);
-    }
-
-    printf("\nArray before sorting: ");
-    for (i = 0; i < n; i++)
-    {
-        printf("%d ", a[i]);
-    }
-
-    mergesort(a, 0, n - 1);
-
-    printf("\nArray after sorting: ");
-    for (i = 0; i < n; i++)
-    {
-        printf("%d ", a[i]);
-    }
-
-    return 0;
 }
