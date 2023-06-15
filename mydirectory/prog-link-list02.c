@@ -6,17 +6,14 @@ struct node
     int data;
     struct node *link;
 };
-
 struct node *start, *p;
-
 void insert_ll();
 void display_ll();
-
 int main()
 {
     int ch;
     start = NULL;
-
+    printf("\n HUMESH DESHMUKH\n ROLL NO.34");
     while (1)
     {
         printf("\nMenu of linked list");

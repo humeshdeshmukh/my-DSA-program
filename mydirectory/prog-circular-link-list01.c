@@ -17,6 +17,7 @@ void display_cll();
 int main()
 {
     int ch;
+    printf("\n HUMESH DESHMUKH\n ROLL NO.34");
 
     while (1)
     {
@@ -30,19 +31,19 @@ int main()
 
         switch (ch)
         {
-            case 1:
-                insert_cll();
-                break;
-            case 2:
-                delete_cll();
-                break;
-            case 3:
-                display_cll();
-                break;
-            case 4:
-                exit(0);
-            default:
-                printf("\nInvalid choice");
+        case 1:
+            insert_cll();
+            break;
+        case 2:
+            delete_cll();
+            break;
+        case 3:
+            display_cll();
+            break;
+        case 4:
+            exit(0);
+        default:
+            printf("\nInvalid choice");
         }
     }
 }

@@ -1,4 +1,4 @@
-/*write a c program to find  factorial of of no by recurtion */
+/*write a c program to find  factorial of of no by recursion */
 
 #include <stdio.h>
 int fact(int n)
@@ -17,8 +17,8 @@ int fact(int n)
 int main()
 {
     int num;
+    printf("\n HUMESH DESHMUKH\n ROLL NO.34");
     printf("\n enter number :");
-    scanf("%d",&num);
-    printf("\n factorial of number =%d",fact(num));
-
+    scanf("%d", &num);
+    printf("\n factorial of number =%d", fact(num));
 }
