@@ -17,7 +17,7 @@ void display_cll();
 int main()
 {
     int ch;
-    printf("\n HUMESH DESHMUKH\n ROLL NO.34");
+    printf("\n HUMESH DESHMUKH\n ROLL NO. 34");
 
     while (1)
     {

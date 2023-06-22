@@ -1,4 +1,4 @@
-/*write a stack program*/
+/*write a menue driven program of  stack  by c*/
 #include <stdio.h>
 #include <stdlib.h> 
 #define MAX 5
@@ -14,6 +14,7 @@ int main()
 {
     int ch;
     top = -1;
+    printf("\n HUMESH DESHMUKH\n ROLL NO. 34");
 
     while (1)
     {

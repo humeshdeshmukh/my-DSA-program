@@ -9,7 +9,7 @@ int main()
     int a[MAX];
     int i;
 
-    printf("\n HUMESH DESHMUKH\n ROLL NO.34");
+    printf("\n HUMESH DESHMUKH \n ROLL NO. 34");
     printf("\nEnter %d elements in sorted order: ", MAX);
     for (i = 0; i < MAX; i++)
     {

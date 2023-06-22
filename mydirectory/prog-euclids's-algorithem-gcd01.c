@@ -6,7 +6,7 @@ int gcd(int n1, int n2);
 int main()
 {
     int num1, num2;
-    printf("\n HUMESH DESHMUKH\n ROLL NO.34");
+    printf("\n HUMESH DESHMUKH\n ROLL NO. 34");
     printf("\nEnter two positive integers: \n");
     scanf("%d %d", &num1, &num2);
     printf("GCD of %d and %d is %d\n", num1, num2, gcd(num1, num2));

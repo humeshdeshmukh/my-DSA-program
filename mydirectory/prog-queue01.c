@@ -1,3 +1,4 @@
+/*write a  menue driven program of queue by c*/
 #include <stdio.h>
 #include <stdlib.h>
 #define MAX 5
@@ -13,6 +14,7 @@ int main()
 {
     int ch;
     front = rear = -1;
+    printf("\n HUMESH DESHMUKH\n ROLL NO. 34");
 
     while (1)
     {
