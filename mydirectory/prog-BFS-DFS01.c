@@ -156,3 +156,53 @@ int pop()
         return (k);
     }
 }
+
+
+/*Breadth-First Search (BFS) and Depth-First Search (DFS) are fundamental 
+graph traversal algorithms used in computer science and graph theory. 
+Let's explore these algorithms in more detail and discuss their properties and applications:
+
+Breadth-First Search (BFS):
+BFS explores a graph in a breadth-first manner,
+ meaning it visits all the vertices at the same level before moving to the next level. 
+ Starting from a given source vertex, BFS systematically visits adjacent vertices 
+ before exploring deeper into the graph. It utilizes a queue data structure to keep 
+ track of the vertices to be visited.
+
+Theory: BFS guarantees that it visits all vertices at the minimum 
+possible depth or level from the source. This property makes it particularly
+ useful for finding the shortest path between two vertices in an unweighted graph. 
+ Additionally, BFS can be employed for applications such as finding connected components,
+  testing bipartiteness, and solving puzzles that require the shortest solution.
+
+Depth-First Search (DFS):
+DFS explores a graph by going as deep as possible before backtracking. 
+It starts from a given source vertex, traverses one path until it reaches the end, 
+and then backtracks to explore other paths. DFS employs a stack data structure
+ to keep track of the vertices to be visited.
+
+Theory: DFS is well-suited for detecting cycles in a graph, 
+as it explores deeply connected regions thoroughly.
+ It is also frequently used for topological sorting and finding connected components.
+  Unlike BFS, DFS does not guarantee finding the shortest path between two vertices, 
+  as it can get trapped in cycles. However, DFS is efficient when the search space
+   is large and the objective is to explore as deeply as possible before backtracking.
+
+Choosing between BFS and DFS depends on the nature of the problem and the 
+characteristics of the graph:
+
+BFS is preferred when the objective is to find the shortest path or
+ the minimum number of edges between two vertices.
+DFS is suitable for exploring deeply connected regions or when 
+the search space is extensive and exploring deeply is desirable.
+BFS requires more memory due to the queue data structure, whereas
+ DFS requires memory for the stack. This can be a limitation in
+  graphs with a large number of vertices.
+BFS guarantees finding the shortest path, but it may explore 
+more nodes than DFS in certain scenarios.
+DFS may encounter infinite loops if the graph contains cycles,
+ while BFS effectively avoids this issue.
+In conclusion, both BFS and DFS possess unique strengths and are
+ applicable to different problem domains and graph characteristics. 
+ The selection between these algorithms depends on the specific
+  requirements of the problem at hand.*/

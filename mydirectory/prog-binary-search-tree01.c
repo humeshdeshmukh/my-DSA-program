@@ -69,3 +69,14 @@ int main()
     inorder(root);
     return 0;
 }
+
+/*A Binary Search Tree (BST) is a binary tree where each node's
+ key satisfies the binary search property. The left subtree 
+ contains keys smaller than the node, and the right subtree 
+ contains keys greater than the node. BSTs enable efficient 
+ searching (O(log n)), insertion, and deletion operations.
+  Traversal can be performed in-order, pre-order, or post-order. 
+  Maintaining balance ensures optimal performance. 
+  Variants like AVL trees and Red-Black trees address 
+  balance concerns, providing consistent logarithmic 
+  time complexity for operations.*/
