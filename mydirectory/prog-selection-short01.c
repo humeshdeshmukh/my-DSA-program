@@ -8,6 +8,7 @@ int main()
 {
     int arr[MAX];
     int i;
+    printf("\n HUMESH DESHMUKH\n ROLL NO. 34");
 
     printf("Enter %d elements: ", MAX);
     for(i = 0; i < MAX; i++)
