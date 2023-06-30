@@ -1,3 +1,4 @@
+/*write a code to findmax in link list*/
 #include <stdio.h>
 #include <stdlib.h>
 

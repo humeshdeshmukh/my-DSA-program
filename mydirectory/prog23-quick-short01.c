@@ -1,3 +1,4 @@
+/*write a program to implement a quick short*/
 #include <stdio.h>
 
 void quicksort(int a[], int lower, int upper);

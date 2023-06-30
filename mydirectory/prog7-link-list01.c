@@ -1,3 +1,4 @@
+/*creation of  node */
 #include<stdio.h>
 #include<stdlib.h>
 

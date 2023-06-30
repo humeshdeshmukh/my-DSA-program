@@ -1,3 +1,4 @@
+/* write a program to creat a node in link list */
 #include <stdio.h>
 #include <stdlib.h>
 

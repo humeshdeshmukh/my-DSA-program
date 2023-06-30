@@ -1,3 +1,4 @@
+/*write a program of circular queue*/
 #include <stdio.h>
 #include <stdlib.h>
 #define MAX 5
