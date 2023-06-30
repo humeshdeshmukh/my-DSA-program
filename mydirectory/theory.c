@@ -17,3 +17,14 @@ i) static data structure     ii) dynamic data structure      i) tree     ii) gra
      ||                      ___________||_________
      ||                       ||         ||       ||
  a) array              a) queue   b)stack    c)link list                */
+ /* TYPES OF DATA STRUCTURE
+ 1)LINEAR DATA STRUCTURE:-data structure in which data element are arranged sequentially or linearly, 
+ where each element is attached to its previous and next adjacent element is called a linear data structure
+ 
+ 2)STATIC DATA STRUCTURE:-static data structure has a fixed memory size 
+ it is easier to access the element in a static data structure
+ an example of this data structure is array
+ 
+ 3)DYNAMIC DATA STRUCTURE:- in the dynamic data structure 
+ the size is not fixed in can be randomly updated during the runtime
+ which may be considered efficient concerning the memory (space)complexity of the code */
