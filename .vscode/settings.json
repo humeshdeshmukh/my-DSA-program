@@ -51,7 +51,8 @@
     "insertq",
     "lisk",
     "MAHANT",
-    "menue"
+    "menue",
+    "nodecount"
   ],
   "C_Cpp_Runner.msvcWarnings": [
     "/W4",
