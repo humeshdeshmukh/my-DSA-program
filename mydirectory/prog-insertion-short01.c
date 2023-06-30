@@ -7,7 +7,7 @@ int main()
 {
     int a[10];
     int i;
-    printf("\n HUMESH DESHMUKH\n ROLL NO. 34");
+    printf("\n HUMESH DESHMUKH\n ROLL NO. 34\n");
 
     printf("\n Enter any 10 numbers");
     for (i = 0; i < 10; i++)
