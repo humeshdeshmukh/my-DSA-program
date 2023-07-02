@@ -72,5 +72,6 @@
     "/w14928"
   ],
   "C_Cpp_Runner.useUndefinedSanitizer": false,
-  "C_Cpp_Runner.useLeakSanitizer": false
+  "C_Cpp_Runner.useLeakSanitizer": false,
+  "C_Cpp_Runner.useLinkTimeOptimization": false
 }
