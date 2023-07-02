@@ -2,12 +2,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-struct Node {
+struct Node
+{
     int data;
-    struct Node* next;
+    struct Node *next;
 };
 
-struct Node* top;
+struct Node *top;
 
 void push();
 void pop();
@@ -29,19 +30,19 @@ int main()
 
         switch (ch)
         {
-            case 1:
-                push();
-                break;
-            case 2:
-                pop();
-                break;
-            case 3:
-                display();
-                break;
-            case 4:
-                exit(0);
-            default:
-                printf("\nInvalid choice");
+        case 1:
+            push();
+            break;
+        case 2:
+            pop();
+            break;
+        case 3:
+            display();
+            break;
+        case 4:
+            exit(0);
+        default:
+            printf("\nInvalid choice");
         }
     }
 }
@@ -49,7 +50,7 @@ int main()
 void push()
 {
     int data;
-    struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
+    struct Node *newNode = (struct Node *)malloc(sizeof(struct Node));
 
     if (newNode == NULL)
     {
@@ -75,7 +76,7 @@ void pop()
         return;
     }
 
-    struct Node* temp = top;
+    struct Node *temp = top;
     int data = temp->data;
     top = top->next;
 
@@ -92,7 +93,7 @@ void display()
         return;
     }
 
-    struct Node* temp = top;
+    struct Node *temp = top;
 
     printf("\nStack elements:");
 

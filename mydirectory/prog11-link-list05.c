@@ -2,13 +2,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-struct Node {
+struct Node
+{
     int data;
-    struct Node* next;
+    struct Node *next;
 };
 
-struct Node* front;
-struct Node* rear;
+struct Node *front;
+struct Node *rear;
 
 void insertq();
 void deleteq();
@@ -30,19 +31,19 @@ int main()
 
         switch (ch)
         {
-            case 1:
-                insertq();
-                break;
-            case 2:
-                deleteq();
-                break;
-            case 3:
-                displayq();
-                break;
-            case 4:
-                exit(0);
-            default:
-                printf("\nInvalid choice");
+        case 1:
+            insertq();
+            break;
+        case 2:
+            deleteq();
+            break;
+        case 3:
+            displayq();
+            break;
+        case 4:
+            exit(0);
+        default:
+            printf("\nInvalid choice");
         }
     }
 }
@@ -50,7 +51,7 @@ int main()
 void insertq()
 {
     int data;
-    struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
+    struct Node *newNode = (struct Node *)malloc(sizeof(struct Node));
 
     if (newNode == NULL)
     {
@@ -85,7 +86,7 @@ void deleteq()
         return;
     }
 
-    struct Node* temp = front;
+    struct Node *temp = front;
     int data = temp->data;
     front = front->next;
 
@@ -107,7 +108,7 @@ void displayq()
         return;
     }
 
-    struct Node* temp = front;
+    struct Node *temp = front;
 
     printf("\nQueue elements:");
 
