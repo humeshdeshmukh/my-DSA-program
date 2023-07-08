@@ -1,9 +1,7 @@
 /*write a menue driven program of queue by link list by c*/
 #include <stdio.h>
 #include <stdlib.h>
-
 #define MAXSIZE 3
-
 struct node
 {
     int data;
